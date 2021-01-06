@@ -1,6 +1,6 @@
 # SCRC Software checklist
 
-This has been developed by the Scottish Covid-19 Response Consortium and has been used to assess the software engineering aspects of "model readiness" for our 
+This checklist has been developed by the Scottish Covid-19 Response Consortium and has been used to assess the software engineering aspects of "model readiness" for our 
 six epidemiological models. This is intended to be part of a broader scheme to evaluate and describe suitability of model results to be used in decision making so 
 this checklist covers only the software implementation and assumes that other documents cover questions about model validation, quality of science, 
 data provenance and quality and policy readiness.
