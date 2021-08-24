@@ -7,17 +7,11 @@ data provenance and quality and policy readiness.
 
 In order to use this checklist for the SCRC FAIR data pipeline components, three questions that apply only to software producing scientific results have been marked "models only" and for other software an N/A response can be given.
 
-## Software Details
+## Software details
 
 ### Model / software name
 
 > Model / software name here
-
-### Filled in by
-
--Name
--Role on project (eg Primary developer, RSE, external reviewer)
--include any relevant identifier, eg Github or ORCID ID
 
 ### Date
 
@@ -25,9 +19,25 @@ In order to use this checklist for the SCRC FAIR data pipeline components, three
 
 ### Version identifier
 
-> Version identifier here
+> Software version identifier here
 
-## Overall statement
+## This assessment
+
+### Filled in by
+
+Name
+
+> Name here
+
+Role on project: 
+
+> Project role here (eg Primary developer, RSE, external reviewer)
+
+Person identifier:
+
+> Any relevant identifier eg Github username, ORCID ID
+
+### Overall statement
 
 Do we have sufficient confidence in the correctness of the software to trust the results?
 
@@ -38,6 +48,7 @@ This is your overall judgement on the level of confidence based on all the aspec
 > - [ ] No
 >
 > Overall statement here
+> 
 
 ## Checklist
 
