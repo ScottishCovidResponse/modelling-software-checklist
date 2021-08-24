@@ -5,6 +5,8 @@ six epidemiological models. This is intended to be part of a broader scheme to e
 this checklist covers only the software implementation and assumes that other documents cover questions about model validation, quality of science, 
 data provenance and quality and policy readiness.
 
+In order to use this checklist for the SCRC FAIR data pipeline components, three questions that apply only to software producing scientific results have been marked "models only" and for other software an N/A response can be given.
+
 ## Software Details
 
 ### Model / software name
@@ -37,7 +39,7 @@ Please use a statement from this list: "Sufficiently addressed", "Some work rema
 
 Additionally, for each question please explain the situation and include any relevant links (eg tool dashboards, documentation). The sub bullet points are to make the scope of the question clear and should be covered if relevant but do not have to be answered individually.
 
-### Can a run be repeated and reproduce exactly the same results?
+### Can a run be repeated and reproduce exactly the same results? (models only)
 
 - How is stochasticity handled?
 - Is sufficient meta-data logged to enable a run to be reproduced: Is the exact code version recorded (and whether the repository was "clean"), including versions of dependent libraries (e.g. an environment.yml file or similar) along with all command line arguments and the content of any configuration files? 
@@ -46,6 +48,7 @@ Additionally, for each question please explain the situation and include any rel
 > - [ ] Sufficiently addressed
 > - [ ] Some work remaining or caveats
 > - [ ] Needs to be addressed
+> - [ ] N/A
 > 
 > Response here
 
@@ -63,7 +66,7 @@ Additionally, for each question please explain the situation and include any rel
 > 
 > Response here
 
-### Are the scientific results of runs robust to different ways of running the code?
+### Are the scientific results of runs robust to different ways of running the code? (models only)
 
 - Running on a different machine?
 - With different number of processes?
@@ -75,6 +78,7 @@ Additionally, for each question please explain the situation and include any rel
 > - [ ] Sufficiently addressed
 > - [ ] Some work remaining or caveats
 > - [ ] Needs to be addressed
+> - [ ] N/A
 > 
 > Response here
 
@@ -136,7 +140,7 @@ Additionally, for each question please explain the situation and include any rel
 > 
 > Response here
 
-### Is input and output data handled carefully?
+### Is input and output data handled carefully? (Models only)
 
 - Does the code use the data pipeline for all inputs and outputs?
 - Is the code appropriately parameterized (i.e. have hard coded parameters been removed)?
@@ -144,6 +148,7 @@ Additionally, for each question please explain the situation and include any rel
 > - [ ] Sufficiently addressed
 > - [ ] Some work remaining or caveats
 > - [ ] Needs to be addressed
+> - [ ] N/A
 > 
 > Response here
 
