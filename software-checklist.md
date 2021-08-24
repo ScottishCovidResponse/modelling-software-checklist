@@ -13,6 +13,12 @@ In order to use this checklist for the SCRC FAIR data pipeline components, three
 
 > Model / software name here
 
+### Filled in by
+
+-Name
+-Role on project (eg Primary developer, RSE, external reviewer)
+-include any relevant identifier, eg Github or ORCID ID
+
 ### Date
 
 > Date here
